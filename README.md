@@ -64,20 +64,23 @@ http://localhost:5000/CalculatorService/CalcREST/addition?a=5&b=3
 
 Multiplication (POST)
 
-http://localhost:5000/CalculatorService//CalcREST/mul-rest
+http://localhost:5000/CalculatorService/CalcREST/mul-rest
 
 Body :
 {
+
   "A": 4,
+  
   "B": 6
+  
 }
 
 **🚀 How to Run**
 
-Open solution in Visual Studio
+1. Open solution in Visual Studio
 
-Set CalculatorServiceHost as startup project
+2. Set CalculatorServiceHost as startup project
 
-Run the application
+3. Run the application
 
-Press Enter to stop the service
+4. Press Enter to stop the service
