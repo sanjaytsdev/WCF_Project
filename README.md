@@ -1,8 +1,10 @@
 **🧮 Calculator WCF Service (SOAP + REST)**
+
 A simple WCF-based calculator service that exposes the same business logic through both SOAP and REST endpoints.
 This project demonstrates how one service can support multiple communication styles using different bindings.
 
 **📌 What This Project Demonstrates**
+
     WCF service hosting
     SOAP vs REST comparison
     Contract-based design
@@ -10,6 +12,7 @@ This project demonstrates how one service can support multiple communication sty
     Multi-endpoint configuration
 
 **🔹 Layers**
+
 1. Service Host
     Console application
     Configures endpoints
@@ -26,13 +29,16 @@ This project demonstrates how one service can support multiple communication sty
 4. Data Contract
     DataRequest (used for REST POST)
 
-**🌐 Endpoints
-🔵 SOAP Endpoint**
+**🌐 Endpoints**
+
+**🔵 SOAP Endpoint**
+
 Binding: BasicHttpBinding
 Format: XML
 http://localhost:5000/CalculatorService/CalcSOAP
 
 **🟢 REST Endpoints**
+
 Binding: WebHttpBinding
 Format: JSON
 Addition (GET)
@@ -46,6 +52,7 @@ Body :
 }
 
 **🚀 How to Run**
+
 Open solution in Visual Studio
 Set CalculatorServiceHost as startup project
 Run the application
