@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CalculatorServiceHost/CalculatorServiceHost.csproj" Id="945935b0-2f24-4fd1-b720-861514a0c2dc" />
+  <Project Path="CalculatorServiceLibrary/CalculatorServiceLibrary.csproj" Id="a8fb6087-0404-440e-ba39-fecb542d7f1b" />
+</Solution>
