@@ -69,10 +69,10 @@ http://localhost:5000/CalculatorService/CalcREST/mul-rest
 Body :
 {
 
-  "A": 4,
-  
-  "B": 6
-  
+      "A": 4,
+      
+      "B": 6
+      
 }
 
 **🚀 How to Run**
